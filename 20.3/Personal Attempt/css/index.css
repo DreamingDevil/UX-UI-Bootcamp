@@ -1,0 +1,62 @@
+ body {
+  /* font-family: "Open Sans"; */
+ }
+
+ nav {
+  margin-left: 40px;
+  margin-right: 40px;
+    display: flex;
+    flex-direction: space-evenly;
+    justify-content: space-between;
+}
+.navbar-nav {
+  display: flex;
+  margin: 0 auto;
+}
+
+
+.customNav{
+  background-color: transparent !important;
+ }
+a .nav-link {
+  color: white !important;
+}
+
+.jumbotron {
+  border: 1px solid red;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.jumbotron .display-4 {
+  color: white;
+}
+
+.jumbotron .my-4 {
+  background-color: white;
+  width: 25vw;
+ }
+
+.card-body {
+
+}
+
+ #hero {
+  background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+ }
+
+ .adventure {
+  text-align: center;
+ }
+
+ .container-fluid .adventure {
+  margin-left: 300px;
+  margin-right: 300px;
+ }
